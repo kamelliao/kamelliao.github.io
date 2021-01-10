@@ -10821,6 +10821,11 @@ article.article .content h1 {
 }
 article.article .content h2 {
   font-size: 1.5em;
+  border-left: rgba(0,133,226,0.631) 6px solid;
+  margin-left: -1.5rem;
+  padding-left: 1rem;
+  background-color: rgba(0,133,226,0.133);
+  line-height: 1.75em;
 }
 article.article .content h3 {
   font-size: 1.25em;
@@ -10900,7 +10905,7 @@ article.article .content .message.message-immersive .message-body {
   top: -87.87px;
   content: '\f25e';
   font-size: 200px;
-  font-family: 'Font Awesome 5 Brands';
+  font-family: 'Noto Sans TC';
   opacity: 0.1;
 }
 .article-licensing .level-left {
