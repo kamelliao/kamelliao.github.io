@@ -16,7 +16,7 @@ export default function Home() {
             <text className="font-normal text-lg">Hello!</text>
             <text className="font-bold text-2xl py-2">I am Kamel Liao.</text>
             <text className="font-normal text-lg">
-              I&apos;m currently in my second year as a graduate student at
+              I&apos;m currently in my second year of graduate school at
               National Taiwan University, fueled by a strong passion for
               computer science.
             </text>
