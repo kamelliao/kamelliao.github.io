@@ -4,21 +4,19 @@ import Image from "next/image";
 import Link from "next/link";
 import Avatar from "public/avatar.svg";
 import { motion } from "framer-motion";
-import Layout from "../components/layout";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 export default function Home() {
   return (
-    <Layout title="Home">
+    <motion.div>
       <div className="flex items-center md:flex-row max-lg:flex-col-reverse justify-center">
         <div className="flex flex-col max-w-md">
           <div className="px-1 py-10 flex flex-col">
             <text className="font-normal text-lg">Hello!</text>
             <text className="font-bold text-2xl py-2">I am Kamel Liao.</text>
             <text className="font-normal text-lg">
-              I&apos;m currently in my second year of graduate school at
-              National Taiwan University, fueled by a strong passion for
-              computer science.
+              I am passionate about computer science and currently pursuing my
+              second year of graduate studies at National Taiwan University.
             </text>
           </div>
           <div className="flex gap-2">
@@ -44,6 +42,6 @@ export default function Home() {
           </motion.div>
         </div>
       </div>
-    </Layout>
+    </motion.div>
   );
 }
